@@ -1,0 +1,43 @@
+---
+layout: post
+title: 이 은 비
+image: bee2.jpeg
+date: 1993-03-24 14:30:00
+tags:
+categories: LeeEunBee
+---
+이 여자는 이은비에요. 1993년 3월 24일 태어났어요. 이 아름다운 여자는 권대영 여자친구가 되었습니다. 축축~!!
+
+***
+
+#### 얼짱각도로 사진을 찍다!
+
+![]({{site.baseurl}}/images/bee1.jpeg)
+
+{% highlight markdown %}
+평택 메인스트리트 카페에서 뽐내고 있는 모습이에요~!
+{% endhighlight %}
+
+***
+
+#### 그녀 술에 취해 쓰러지다!!
+
+![]({{site.baseurl}}/images/bee3.jpeg)
+
+{% highlight markdown %}
+엄청난 양의 술을 섭취하고 쓰러진 그녀의 모습이랍니다 ㅜㅜㅜㅜㅜㅜ 일어나요 용사여!!!
+{% endhighlight %}
+
+***
+
+#### 고양이와 함께 눈을뜨다!!
+
+![]({{site.baseurl}}/images/bee4.jpeg)
+
+{% highlight markdown %}
+미세라는 고양이가 용사를 깨운 모습이에요! 얼굴에 빨갛게 에너지가 충전되는 모습인거죠!
+{% endhighlight %}
+
+***
+
+###### 은비 기록 완료
