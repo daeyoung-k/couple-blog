@@ -28,43 +28,83 @@ layout: default
   <div class="c-sidebar-footer">
     <div class="c-social">
       <div class="c-social__title">Social</div>
+      <!-- 대영 소셜 -->
       <ul class="c-social__list u-lists-reset">
-        {% if site.social-twitter %}
+        <li style="display: inline;">Dae young: </li>
+        {% if site.social-young-twitter %}
           <li class="c-social__item"><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><div data-icon='ei-sc-twitter' data-size='s'></div></a></li>
         {% else %}
         {% endif %}
-        {% if site.social-facebook %}
+        {% if site.social-young-facebook %}
           <li class="c-social__item"><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a></li>
         {% else %}
         {% endif %}
-        {% if site.social-github %}
+        {% if site.social-young-github %}
           <li class="c-social__item"><a href="https://github.com/{{site.social-github}}" target="_blank"><div data-icon='ei-sc-github' data-size='s'></div></a></li>
         {% else %}
         {% endif %}
-        {% if site.social-pinterest %}
+        {% if site.social-young-pinterest %}
           <li class="c-social__item"><a href="https://pinterest.com/{{site.social-pinterest}}" target="_blank"><div data-icon='ei-sc-pinterest' data-size='s'></div></a></li>
         {% else %}
         {% endif %}
-        {% if site.social-instagram %}
-          <li class="c-social__item"><a href="https://instagram.com/{{ site.social-instagram }}" target="_blank"><div data-icon='ei-sc-instagram' data-size='s'></div></a></li>
+        {% if site.social-young-instagram %}
+          <li class="c-social__item"><a href="https://instagram.com/{{ site.social-young-instagram }}" target="_blank"><div data-icon='ei-sc-instagram' data-size='s'></div></a></li>
         {% else %}
         {% endif %}
-        {% if site.social-youtube %}
+
+        {% if site.social-young-youtube %}
           <li class="c-social__item"><a href="https://youtube.com/{{ site.social-youtube }}" target="_blank"><div data-icon='ei-sc-youtube' data-size='s'></div></a></li>
         {% else %}
         {% endif %}
-        {% if site.social-vk %}
+        {% if site.social-young-vk %}
           <li class="c-social__item"><a href="https://vk.com/{{ site.social-vk }}" target="_blank"><div data-icon='ei-sc-vk' data-size='s'></div></a></li>
         {% else %}
         {% endif %}
-        {% if site.social-linkedin %}
+        {% if site.social-young-linkedin %}
+          <li class="c-social__item"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><div data-icon='ei-sc-linkedin' data-size='s'></div></a></li>
+        {% else %}
+        {% endif %}
+      </ul>
+
+      <!-- 은비 소셜  -->
+      <ul class="c-social__list u-lists-reset">
+        <li style="display: inline;">Eun bee: </li>
+        {% if site.social-bee-twitter %}
+          <li class="c-social__item"><a href="https://twitter.com/{{ site.social-twitter }}" target="_blank"><div data-icon='ei-sc-twitter' data-size='s'></div></a></li>
+        {% else %}
+        {% endif %}
+        {% if site.social-bee-facebook %}
+          <li class="c-social__item"><a href="https://facebook.com/{{ site.social-facebook }}" target="_blank"><div data-icon='ei-sc-facebook' data-size='s'></div></a></li>
+        {% else %}
+        {% endif %}
+        {% if site.social-bee-github %}
+          <li class="c-social__item"><a href="https://github.com/{{site.social-github}}" target="_blank"><div data-icon='ei-sc-github' data-size='s'></div></a></li>
+        {% else %}
+        {% endif %}
+        {% if site.social-bee-pinterest %}
+          <li class="c-social__item"><a href="https://pinterest.com/{{site.social-pinterest}}" target="_blank"><div data-icon='ei-sc-pinterest' data-size='s'></div></a></li>
+        {% else %}
+        {% endif %}
+        {% if site.social-bee-instagram %}
+          <li class="c-social__item"><a href="https://instagram.com/{{ site.social-bee-instagram }}" target="_blank"><div data-icon='ei-sc-instagram' data-size='s'></div></a></li>
+        {% else %}
+        {% endif %}
+        {% if site.social-bee-youtube %}
+          <li class="c-social__item"><a href="https://youtube.com/{{ site.social-youtube }}" target="_blank"><div data-icon='ei-sc-youtube' data-size='s'></div></a></li>
+        {% else %}
+        {% endif %}
+        {% if site.social--bee-vk %}
+          <li class="c-social__item"><a href="https://vk.com/{{ site.social-vk }}" target="_blank"><div data-icon='ei-sc-vk' data-size='s'></div></a></li>
+        {% else %}
+        {% endif %}
+        {% if site.social-bee-linkedin %}
           <li class="c-social__item"><a href="https://in.linkedin.com/in/{{site.social-linkedin}}" target="_blank"><div data-icon='ei-sc-linkedin' data-size='s'></div></a></li>
         {% else %}
         {% endif %}
       </ul>
     </div>
     <div class="c-copyright">
-      <p>{{site.time | date: '%Y'}} &copy; {{site.author-english-name}}</p>
+      <p>{{site.time | date: '%Y'}} &copy; Young ❤️ Bee</p>
     </div>
   </div>
 </aside> <!-- /.c-sidebar -->
